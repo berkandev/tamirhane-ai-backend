@@ -13,12 +13,12 @@ namespace DecoderApi.DTOs
         public string ModelName { get; set; }
         
         [StringLength(50)]
-        public string HardwareVersion { get; set; }
+        public string? HardwareVersion { get; set; }
         
         [StringLength(50)]
-        public string SoftwareVersion { get; set; }
+        public string? SoftwareVersion { get; set; }
         
         [StringLength(255)]
-        public string Description { get; set; }
+        public string? Description { get; set; }
     }
 } 
